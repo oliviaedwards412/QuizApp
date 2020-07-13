@@ -12,11 +12,12 @@ class SelectCategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        let category = sender.currentTitle!
+    }
+    
     /*
     // MARK: - Navigation
 
