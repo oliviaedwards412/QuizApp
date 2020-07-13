@@ -17,6 +17,8 @@
 		AE8F5BB724BCB35E005543F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F5BB524BCB35E005543F1 /* Main.storyboard */; };
 		AE8F5BB924BCB362005543F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8F5BB824BCB362005543F1 /* Assets.xcassets */; };
 		AE8F5BBC24BCB362005543F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F5BBA24BCB362005543F1 /* LaunchScreen.storyboard */; };
+		DBC51FC724BCB8F600DB4C88 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */; };
+		DBC51FC924BCB92800DB4C88 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AE8F5BB824BCB362005543F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8F5BBB24BCB362005543F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8F5BBD24BCB362005543F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,15 @@
 				AE8F5BB124BCB35E005543F1 /* SceneDelegate.swift */,
 				AE8F5BB324BCB35E005543F1 /* ViewController.swift */,
 				AE8F5BB524BCB35E005543F1 /* Main.storyboard */,
+<<<<<<< HEAD
 				3C2618B824BCB8FF000D5634 /* SignUp.storyboard */,
 				3C2618BC24BCBEE8000D5634 /* SelectCategory.storyboard */,
 				3C2618BE24BCBF1F000D5634 /* SelectCategoryViewController.swift */,
 				3C2618BA24BCB92F000D5634 /* SignUpViewController.swift */,
+=======
+				DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */,
+				DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */,
+>>>>>>> 8e39c130e9b5cb8a2b84921c72543b492678bca9
 				AE8F5BB824BCB362005543F1 /* Assets.xcassets */,
 				AE8F5BBA24BCB362005543F1 /* LaunchScreen.storyboard */,
 				AE8F5BBD24BCB362005543F1 /* Info.plist */,
@@ -140,7 +149,11 @@
 				AE8F5BBC24BCB362005543F1 /* LaunchScreen.storyboard in Resources */,
 				3C2618BD24BCBEE8000D5634 /* SelectCategory.storyboard in Resources */,
 				AE8F5BB924BCB362005543F1 /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
 				3C2618B924BCB8FF000D5634 /* SignUp.storyboard in Resources */,
+=======
+				DBC51FC724BCB8F600DB4C88 /* LoginScreen.storyboard in Resources */,
+>>>>>>> 8e39c130e9b5cb8a2b84921c72543b492678bca9
 				AE8F5BB724BCB35E005543F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8F5BB424BCB35E005543F1 /* ViewController.swift in Sources */,
+				DBC51FC924BCB92800DB4C88 /* LoginScreen.swift in Sources */,
 				AE8F5BB024BCB35E005543F1 /* AppDelegate.swift in Sources */,
 				3C2618BF24BCBF1F000D5634 /* SelectCategoryViewController.swift in Sources */,
 				3C2618BB24BCB92F000D5634 /* SignUpViewController.swift in Sources */,
