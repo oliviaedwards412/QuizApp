@@ -21,6 +21,8 @@
 		AE8F5BC824BCC9D0005543F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8F5BC724BCC9D0005543F1 /* Main.storyboard */; };
 		DBC51FC724BCB8F600DB4C88 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */; };
 		DBC51FC924BCB92800DB4C88 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */; };
+		DBC51FCB24BCC69F00DB4C88 /* QuestionScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC51FCA24BCC69F00DB4C88 /* QuestionScreen.storyboard */; };
+		DBC51FCD24BCC6B500DB4C88 /* QuestionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC51FCC24BCC6B500DB4C88 /* QuestionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		AE8F5BC724BCC9D0005543F1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		DBC51FCA24BCC69F00DB4C88 /* QuestionScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuestionScreen.storyboard; sourceTree = "<group>"; };
+		DBC51FCC24BCC6B500DB4C88 /* QuestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				3C2618BE24BCBF1F000D5634 /* SelectCategoryViewController.swift */,
 				3C2618BA24BCB92F000D5634 /* SignUpViewController.swift */,
 				DBC51FC624BCB8F600DB4C88 /* LoginScreen.storyboard */,
+				DBC51FCA24BCC69F00DB4C88 /* QuestionScreen.storyboard */,
+				DBC51FCC24BCC6B500DB4C88 /* QuestionScreen.swift */,
 				DBC51FC824BCB92800DB4C88 /* LoginScreen.swift */,
 				AE8F5BC324BCB8EE005543F1 /* HomePage.storyboard */,
 				AE8F5BC524BCB932005543F1 /* HomePage.swift */,
@@ -156,6 +162,7 @@
 				AE8F5BB924BCB362005543F1 /* Assets.xcassets in Resources */,
 				3C2618B924BCB8FF000D5634 /* SignUp.storyboard in Resources */,
 				DBC51FC724BCB8F600DB4C88 /* LoginScreen.storyboard in Resources */,
+				DBC51FCB24BCC69F00DB4C88 /* QuestionScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8F5BB424BCB35E005543F1 /* ViewController.swift in Sources */,
+				DBC51FCD24BCC6B500DB4C88 /* QuestionScreen.swift in Sources */,
 				DBC51FC924BCB92800DB4C88 /* LoginScreen.swift in Sources */,
 				AE8F5BB024BCB35E005543F1 /* AppDelegate.swift in Sources */,
 				3C2618BF24BCBF1F000D5634 /* SelectCategoryViewController.swift in Sources */,
@@ -310,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuizApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QuizApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
