@@ -27,6 +27,9 @@ class SelectCategoryViewController: UIViewController {
             print(category)
         }
     }
+    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue)
+    {
+    }
     
     /*
     // MARK: - Navigation
