@@ -10,13 +10,23 @@ import UIKit
 
 class QuestionScreen: UIViewController {
 
+    var category: String = ""
+    let images = ["Music":UIImage(systemName: "music.note"),"Movies":UIImage(systemName: "film"),"Books":UIImage(systemName: "book"),"Animals":UIImage(systemName: "hare"),"World":UIImage(systemName: "globe")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        categoryImage!.image = images[category]!
     }
     
-
+    @IBOutlet weak var categoryImage: UIImageView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toResults" {
+            let newVC = segue.destination as!  ResultsViewController
+            newVC.image = images[category]!!
+            
+        }
+    }
     /*
     // MARK: - Navigation
 

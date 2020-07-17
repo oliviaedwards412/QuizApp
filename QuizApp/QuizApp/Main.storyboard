@@ -14,13 +14,36 @@
                     <view key="view" contentMode="scaleToFill" id="jj4-5f-lQW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbC-Wr-uOi">
+                                <rect key="frame" x="95" y="316" width="225" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.66483160620000004" green="0.21774437099999999" blue="0.20166823850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Go to category selection">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oMe-Mw-EG6" kind="show" id="rHD-9o-ovq"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Cwf-mc-f8s"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="71s-df-b8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-209" y="76"/>
+            <point key="canvasLocation" x="-210.1449275362319" y="75.669642857142847"/>
+        </scene>
+        <!--SelectCategory-->
+        <scene sceneID="bDV-n9-TMI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SelectCategory" referencedIdentifier="SelectCategory" id="oMe-Mw-EG6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B41-dl-6a5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9OR-pp-G7V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="351" y="-84"/>
         </scene>
     </scenes>
 </document>

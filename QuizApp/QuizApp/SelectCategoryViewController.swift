@@ -9,13 +9,23 @@
 import UIKit
 
 class SelectCategoryViewController: UIViewController {
+    
+    var category = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
-        let category = sender.currentTitle!
+        category = sender.currentTitle!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toQuestion" {
+            let newVC = segue.destination as! QuestionScreen
+            newVC.category = category
+            print(category)
+        }
     }
     
     /*
