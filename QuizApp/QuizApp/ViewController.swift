@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    func Auth;.auth().createUser(withEmail: email, password: password) { authResult, error in
+    //func Auth;.auth().createUser(withEmail: email, password: password) { authResult, error in
       // ...
-    }EmailViewController.swift
+   // }EmailViewController.swift
+
 
 }
-
