@@ -8,4 +8,7 @@ target 'QuizApp' do
   # Pods for QuizApp
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
 end

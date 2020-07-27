@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
 
@@ -16,7 +18,16 @@ class SignUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func signUpPressed(_ sender: Any) {
+        Auth.auth().createUser(withEmail: usernameField.text!, password: passwordField.text!) { authResult, error in
+          // ...
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

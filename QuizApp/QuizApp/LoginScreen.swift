@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class LoginScreen: UIViewController {
 
@@ -16,7 +18,21 @@ class LoginScreen: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func loginPressed(_ sender: Any) {
+        Auth.auth().signIn(withEmail: usernameField.text!, password: passwordField.text!) { [weak self] authResult, error in
+          guard let strongSelf = self else {
+            return
+            }
+            if error != nil {
+                print("Wrong")
+            } else {
+                self!.performSegue(withIdentifier: "loggedIn", sender: nil)
+            }
+        }
+    }
     /*
     // MARK: - Navigation
 

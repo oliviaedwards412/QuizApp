@@ -66,6 +66,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="signUpPressed:" destination="EGg-JU-zra" eventType="touchUpInside" id="4Sa-Ac-NCw"/>
                                     <segue destination="zLG-TH-Jpi" kind="modal" modalPresentationStyle="fullScreen" id="ZRw-gX-W4s"/>
                                 </connections>
                             </button>
@@ -82,6 +83,11 @@
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ULc-Zy-4xG"/>
                     </view>
+                    <connections>
+                        <outlet property="nameField" destination="Sfd-Ra-ZLI" id="4gI-Or-ooV"/>
+                        <outlet property="passwordField" destination="Wnb-GI-9iz" id="AkH-vZ-Cj5"/>
+                        <outlet property="usernameField" destination="dpw-va-5Ab" id="xrG-q0-VV3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCf-H4-UHJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

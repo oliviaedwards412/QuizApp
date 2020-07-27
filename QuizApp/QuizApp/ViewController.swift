@@ -9,16 +9,25 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseFirestore
 
 class ViewController: UIViewController {
+    
+    let db = Firestore.firestore()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        var docRef = db.collection("Questions").document("Animals").collection("Q1").document("Q1")
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+                print("Document data: \(dataDescription)")
+            } else {
+                print("Document does not exist")
+            }
+        }
     }
-    //func Auth;.auth().createUser(withEmail: email, password: password) { authResult, error in
-      // ...
-   // }EmailViewController.swift
 
 
 }
